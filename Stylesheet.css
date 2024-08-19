@@ -3,47 +3,92 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /*Header*/
 .header {
     border: #214778 3px solid;
     background-color: #214999;
     padding: 1% 4%;
 }
+
 .nav {
     display: grid;
     grid-template-columns: auto 50%;
 }
+
 .header-title {
     width: 50%;
     display: flex;
 }
-.header-title h1{
+
+.header-title h1 {
     font-size: 45px;
-    color: white;    
+    color: white;
     padding: 1% 1%;
     margin: 0 0;
     border: #214778 solid 4px;
 }
+
 .header-pages {
     display: grid;
     font-size: 20px;
     height: auto;
     width: auto;
 }
+
 .header-pages-style {
     text-decoration: none;
     color: white;
 }
+
 /*Main*/
 .main {
     align-items: center;
+    padding: 0 10%;
 }
+
+/*Timetable*/
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+
+.timetable h1 {
+    font-size: 45px;
+}
+
+.timetable th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #214999;
+    font-size: 25px;
+    color: white;
+}
+
+.timetable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.time {
+    font-style: italic;
+}
+
 /*Footer*/
 .footer {
     border: #214778 2px solid;
     background-color: #214999;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
-.footer-pages table{
+
+.footer-pages table {
     font-size: 16px;
     height: auto;
     width: auto;
