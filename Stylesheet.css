@@ -49,20 +49,30 @@ body {
 }
 .about-us p{
     font-size: 25px;
-    border-bottom: solid white 1px;
+    border-bottom: dotted white 4px;
 }
 .about-us-team-member {
-    align-items: center;
+    text-align: left;
     font-size: 25px;
-    background-color: #deb887;
+    display: inline-block;
+    padding-left:1%;
+    border-right: solid white 2px;
+    padding-right: 2%;
+    width: 18%;
 }
-.about-us-team-member-left {
+.about-us-team-member-img img{
+    border: solid white 5px;
+    width: 240px;
+    height: 220px;
     float: left;
-    width: 50%;
+    margin: 1px 5px;
+    border-radius: 10%;
+    margin-left: 5%;
 }
-.about-us-team-member-right {
-    float: right;
-    width: 50%;
+.about-us-team-member-p{
+    display: flex;
+    text-align: left;
+    float: left;
 }
 /*Footer*/
 .footer {
