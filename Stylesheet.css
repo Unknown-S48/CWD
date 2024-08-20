@@ -36,9 +36,24 @@ body {
 }
 /*Main*/
 .main {
-    align-items: center;
-}
+    text-align: center;
+    padding: 0 10%;
+}   
 /*Discussion*/
+.discussion {
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    padding: 0 10%;
+}
+.discussion h1 { 
+    border-bottom: white solid 2px;
+    width: 30%;
+    font-size: 35px;
+}
+.discussion h2 {
+    font-size: 30px;
+}
 /*Footer*/
 .footer {
     border: #214778 2px solid;
