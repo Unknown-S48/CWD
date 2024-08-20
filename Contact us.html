@@ -7,14 +7,83 @@
         <link rel="stylesheet" href="Stylesheet.css">
     </head>
     <body>
-        <header>
-
+        <header class="header">
+            <nav class="nav">
+                <div class="header-title">
+                    <h1>
+                        Welcome to CTU
+                    </h1>
+                </div>
+                <div class="header-pages">
+                    <table>
+                        <tr>
+                            <th><a href="Home.html"
+                                    class="header-pages-style">Home</a></th>
+                            <th><a href="Timetable.html"
+                                    class="header-pages-style">Timetable</a></th>
+                            <th><a href="Discussion.html"
+                                    class="header-pages-style">Discussion</a></th>
+                            <th><a href="Share Resources.html"
+                                    class="header-pages-style">Share
+                                    Resources</a></th>
+                            <th><a href="About us.html"
+                                    class="header-pages-style">About
+                                    Us</a></th>
+                            <th><a href="Contact us.html"
+                                    class="header-pages-style">Contact
+                                    Us</a></th>
+                        </tr>
+                    </table>
+                </div>
+            </nav>
         </header>
         <main>
+            <div class="container">
+                <div class="left"><h2>Contact Us</h2>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
 
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5"
+                            required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="right"><h2>Our Location</h2>
+                    <img src="eldenRing-removebg-preview.png"
+                        alt="Map of our location">
+                </div>
+            </div>
         </main>
-        <footer>
-
+        <footer class="footer">
+            <div class="footer-pages">
+                <table align="center">
+                    <tr>
+                        <th><a href="Home.html"
+                                class="header-pages-style">Home</a></th>
+                        <th><a href="Timetable.html"
+                                class="header-pages-style">Timetable</a></th>
+                        <th><a href="Discussion.html"
+                                class="header-pages-style">Discussion</a></th>
+                        <th><a href="Share Resources.html"
+                                class="header-pages-style">Share
+                                Resources</a></th>
+                        <th><a href="About us.html"
+                                class="header-pages-style">About
+                                Us</a></th>
+                        <th><a href="Contact us.html"
+                                class="header-pages-style">Contact Us</a></th>
+                    </tr>
+                </table>
+            </div>
         </footer>
     </body>
 </html>
