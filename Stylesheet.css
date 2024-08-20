@@ -79,6 +79,22 @@ body {
     font-style: italic;
 }
 
+/* Share Resources */
+.file-download {
+    background-color: #ddd;
+    margin: 20px 0;
+    padding: 10px 0 0;
+}
+
+.button {
+    margin: 20px 10px;
+}
+
+.file-upload {
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
 /*Footer*/
 .footer {
     border: #214778 2px solid;
