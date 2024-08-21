@@ -198,13 +198,16 @@ img {
 .footer {
     border: #214778 2px solid;
     background-color: #214999;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
 }
-
 .footer-pages table {
     font-size: 16px;
     height: auto;
     width: auto;
+}
+.footer-fixed {
+    border: #214778 2px solid;
+    background-color: #214999;
+    position: absolute;
+    bottom: 0px;
+    width: 99.8%;
 }
