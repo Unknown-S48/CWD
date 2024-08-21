@@ -43,8 +43,50 @@ body {
 
 /*Main*/
 .main {
-    align-items: center;
+    text-align: center;
     padding: 0 10%;
+}   
+/*Discussion*/
+.discussion {
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    padding: 0 10%;
+}
+.discussion-marks {
+    display: flex;
+    font-size: 18px;
+}
+.discussion h1 { 
+    border-bottom: white solid 2px;
+    width: 30%;
+    font-size: 35px;
+}
+.discussion h2 {
+    font-size: 30px;
+}
+.discussion th{
+    padding: 20px 10px;
+    border: solid #214889 1px;
+    background-color: #214778;
+    color: white;
+}
+.discussion table{
+    background-color: #214999;
+}
+.discussion-thread {
+    background-color: #bbbbbb;
+}
+.discussion-study-group {
+    display: flex;
+}
+.discussion-groups {
+    background-color: #214999;
+    width: 10%;
+    color:white;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-left: 5px;
 }
 
 /*Timetable*/
@@ -199,7 +241,11 @@ img {
     border: #214778 2px solid;
     background-color: #214999;
 }
-.footer-pages table {
+.footer-pages {
+    display: flex;
+    justify-content: center;
+}
+.footer-pages table{
     font-size: 16px;
     height: auto;
     width: auto;
@@ -210,4 +256,7 @@ img {
     position: absolute;
     bottom: 0px;
     width: 99.8%;
+}
+.footer-pages th{
+    padding: 0 20px;
 }
