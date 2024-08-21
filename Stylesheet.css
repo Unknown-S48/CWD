@@ -56,8 +56,12 @@ body {
 }
 .discussion th{
     padding: 5% 10px;
-    border: solid black 1px;
+    border: solid #214778 1px;
     background-color: #214999;
+    color: white;
+}
+.discussion-thread {
+    background-color: white;
 }
 /*Footer*/
 .footer {
