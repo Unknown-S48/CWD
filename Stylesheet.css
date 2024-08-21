@@ -239,6 +239,8 @@ img {
 .footer {
     border: #214778 2px solid;
     background-color: #214999;
+    color: white;
+    text-align: center;
 }
 .footer-pages {
     display: flex;
