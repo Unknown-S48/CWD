@@ -54,9 +54,10 @@ body {
 .discussion h2 {
     font-size: 30px;
 }
-/*HELP!!!!!!*/
 .discussion th{
-    padding: 5% 10%;
+    padding: 5% 10px;
+    border: solid black 1px;
+    background-color: #214999;
 }
 /*Footer*/
 .footer {
