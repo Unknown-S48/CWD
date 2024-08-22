@@ -43,7 +43,7 @@ body {
 
 /*Main*/
 .main {
-    padding: 0 10%;
+    padding: 0 20%;
 }  
 /*Home*/
 .home {
@@ -56,26 +56,12 @@ body {
 .home a{
     padding: 5px ;
 } 
-.home-timetable {
-    width: 69%;
-    border-collapse: collapse;
-    margin-top: 20px;
-
+.home-img {
+    width: 70%;
+    margin: 0 15%;
 }
-.home-timetable th {
-    border: 1px solid #ddd;
-    padding: 5px 0;
-    background-color: #214999;
-    font-size: 25px;
-    color: white;
-}
-
-.home-timetable td {
-    border: 1px solid #ddd;
-    padding: 5px 0;
-    text-align: center;
+.home p{
     font-size: 20px;
-    color: black;
 }
 /*Discussion*/
 .discussion {
@@ -129,9 +115,11 @@ body {
 }
 
 .timetable h1 {
-    font-size: 45px;
+    font-size: 35px;
 }
-
+.timetable p {
+    font-size: 20px;
+}
 .timetable th {
     border: 1px solid #ddd;
     padding: 10px;
@@ -151,7 +139,6 @@ body {
 .time {
     font-style: italic;
 }
-
 /* Share Resources */
 .file-download {
     background-color: #ddd;
