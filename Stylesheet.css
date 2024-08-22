@@ -44,7 +44,39 @@ body {
 /*Main*/
 .main {
     padding: 0 10%;
-}   
+}  
+/*Home*/
+.home {
+    color: #333;
+} 
+.home h1{
+    border-bottom: white 2px dashed;
+    width: 20%;
+} 
+.home a{
+    padding: 5px ;
+} 
+.home-timetable {
+    width: 69%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+.home-timetable th {
+    border: 1px solid #ddd;
+    padding: 5px 0;
+    background-color: #214999;
+    font-size: 25px;
+    color: white;
+}
+
+.home-timetable td {
+    border: 1px solid #ddd;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
 /*Discussion*/
 .discussion {
     color: black;
