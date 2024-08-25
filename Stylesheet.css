@@ -94,6 +94,14 @@ body {
 .discussion-thread {
     background-color: #bbbbbb;
 }
+.discussion-thread-message {
+    display: flex;
+    justify-content: space-between;
+}
+.discussion-thread-message input{
+    width: 86%;
+    height: 25px;
+}
 .discussion-study-group {
     display: flex;
 }
