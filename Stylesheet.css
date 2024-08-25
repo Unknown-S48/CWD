@@ -44,25 +44,31 @@ body {
 /*Main*/
 .main {
     padding: 0 20%;
-}  
+}
+
 /*Home*/
 .home {
     color: #333;
-} 
-.home h1{
+}
+
+.home h1 {
     border-bottom: white 2px dashed;
     width: 20%;
-} 
-.home a{
-    padding: 5px ;
-} 
+}
+
+.home a {
+    padding: 5px;
+}
+
 .home-img {
     width: 70%;
     margin: 0 15%;
 }
-.home p{
+
+.home p {
     font-size: 20px;
 }
+
 /*Discussion*/
 .discussion {
     color: black;
@@ -70,27 +76,33 @@ body {
     text-align: left;
     padding: 0 10%;
 }
+
 .discussion-marks {
     display: flex;
     font-size: 18px;
 }
-.discussion h1 { 
+
+.discussion h1 {
     border-bottom: white solid 2px;
     width: 30%;
     font-size: 35px;
 }
+
 .discussion h2 {
     font-size: 30px;
 }
-.discussion th{
+
+.discussion th {
     padding: 20px 10px;
     border: solid #214889 1px;
     background-color: #214778;
     color: white;
 }
-.discussion table{
+
+.discussion table {
     background-color: #214999;
 }
+
 .discussion-thread {
     background-color: #bbbbbb;
 }
@@ -102,13 +114,15 @@ body {
     width: 86%;
     height: 25px;
 }
+
 .discussion-study-group {
     display: flex;
 }
+
 .discussion-groups {
     background-color: #214999;
     width: 10%;
-    color:white;
+    color: white;
     margin-right: 2%;
     margin-bottom: 2%;
     padding-left: 5px;
@@ -125,9 +139,11 @@ body {
 .timetable h1 {
     font-size: 35px;
 }
+
 .timetable p {
     font-size: 20px;
 }
+
 .timetable th {
     border: 1px solid #ddd;
     padding: 10px;
@@ -147,6 +163,7 @@ body {
 .time {
     font-style: italic;
 }
+
 /* Share Resources */
 .file-download {
     background-color: #ddd;
@@ -269,15 +286,18 @@ img {
     color: white;
     text-align: center;
 }
+
 .footer-pages {
     display: flex;
     justify-content: center;
 }
-.footer-pages table{
+
+.footer-pages table {
     font-size: 16px;
     height: auto;
     width: auto;
 }
+
 .footer-fixed {
     border: #214778 2px solid;
     background-color: #214999;
@@ -287,6 +307,17 @@ img {
     bottom: 0px;
     width: 99.8%;
 }
-.footer-pages th{
+
+.footer-relative {
+    border: #214778 2px solid;
+    background-color: #214999;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    width: 99.8%;
+}
+
+.footer-pages th {
     padding: 0 20px;
 }
