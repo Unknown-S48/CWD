@@ -43,8 +43,26 @@ body {
 
 /*Main*/
 .main {
-    padding: 0 10%;
-}   
+    padding: 0 20%;
+}  
+/*Home*/
+.home {
+    color: #333;
+} 
+.home h1{
+    border-bottom: white 2px dashed;
+    width: 20%;
+} 
+.home a{
+    padding: 5px ;
+} 
+.home-img {
+    width: 70%;
+    margin: 0 15%;
+}
+.home p{
+    font-size: 20px;
+}
 /*Discussion*/
 .discussion {
     color: black;
@@ -97,9 +115,11 @@ body {
 }
 
 .timetable h1 {
-    font-size: 45px;
+    font-size: 35px;
 }
-
+.timetable p {
+    font-size: 20px;
+}
 .timetable th {
     border: 1px solid #ddd;
     padding: 10px;
@@ -119,7 +139,6 @@ body {
 .time {
     font-style: italic;
 }
-
 /* Share Resources */
 .file-download {
     background-color: #ddd;
