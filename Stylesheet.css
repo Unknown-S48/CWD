@@ -1,5 +1,6 @@
 body {
     background-color: #deb887;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -111,8 +112,7 @@ body {
     justify-content: space-between;
 }
 .discussion-thread-message input{
-    width: 86%;
-    height: 25px;
+    width: 85%;
 }
 
 .discussion-study-group {
