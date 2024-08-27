@@ -107,11 +107,14 @@ body {
 .discussion-thread {
     background-color: #bbbbbb;
 }
+
 .discussion-thread-message {
     display: flex;
     justify-content: space-between;
+    padding: 2% 0;
 }
-.discussion-thread-message input{
+
+.discussion-thread-message input {
     width: 85%;
 }
 
