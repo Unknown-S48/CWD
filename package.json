@@ -1,0 +1,16 @@
+{
+  "name": "cwd",
+  "version": "1.0.0",
+  "description": "CTU-Buddy is a comprehensive and interactive website designed to enhance the learning experience for students at City Technical University (CTU). This platform provides various features to help students manage their schedules, engage in discussions, share resources, and connect with their peers and educators.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

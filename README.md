@@ -27,7 +27,10 @@ CTU-Buddy is a comprehensive and interactive website designed to enhance the lea
    ```
    cd ctu-buddy
    ```
-3. Open `index.html` in your web browser to view the website locally.
+3. run: 
+   ```
+   npm start
+   ```
 
 ## Usage
 
