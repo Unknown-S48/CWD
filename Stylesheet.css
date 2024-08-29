@@ -45,6 +45,7 @@ body {
 /*Main*/
 .main {
     padding: 0 20%;
+    animation: slideInFromBottom 0.5s ease-out;
 }
 
 /*Home*/
@@ -55,6 +56,7 @@ body {
 .home h1 {
     border-bottom: white 2px dashed;
     width: 20%;
+    animation: expandWidth 1s ease-out;
 }
 
 .home a {
@@ -68,6 +70,39 @@ body {
 
 .home p {
     font-size: 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes expandWidth {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 20%;
+    }
 }
 
 /*Discussion*/
