@@ -19,7 +19,6 @@ body {
 
 .header-title {
     width: 50%;
-    display: flex;
 }
 
 .header-title h1 {
@@ -71,6 +70,11 @@ body {
 .home p {
     font-size: 20px;
     animation: fadeIn 1s ease-in;
+}
+
+.home video {
+    display: block;
+    margin: auto;
 }
 
 @keyframes fadeIn {
@@ -227,10 +231,15 @@ body {
     padding: 20px;
 }
 
-.left,
+.left {
+    flex: 1;
+    padding: 20px;
+}
+
 .right {
     flex: 1;
     padding: 20px;
+
 }
 
 form {
@@ -267,6 +276,26 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.group-info {
+    border: 1px solid white;
+    justify-content: center;
+    text-align: center;
+    animation: slideUp 1s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 /*About us*/
 .about-us {
