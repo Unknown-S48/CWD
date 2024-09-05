@@ -4,7 +4,28 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*Login*/
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10% 40%;
+}
+.login-style {
+    flex: 1;
+    padding: 60px 0;
+    text-align: center;
+    border: solid 5px #214999;
+    background-color: #deb887;
+    border-radius: 8%;
+}
+.login-style input{
+ margin: 15px 10% 5px;
+}
+.login-style button{
+    margin: 0 40%;
+    font-size: 15px;
+}
 /*Header*/
 .header {
     border: #214778 3px solid;
@@ -52,18 +73,17 @@ body {
     color: #333;
 }
 
-.home h1 {
-    border-bottom: white 2px dashed;
+.home hr {
+    border:  white 2px dashed;
     width: 20%;
     animation: expandWidth 1s ease-out;
 }
-
 .home a {
     padding: 5px;
 }
 
 .home-img {
-    width: 70%;
+    width: 80%;
     margin: 0 15%;
 }
 
@@ -120,6 +140,7 @@ body {
 .discussion-marks {
     display: flex;
     font-size: 18px;
+    margin: 10px 0 0 0 ;
 }
 
 .discussion h1 {
@@ -129,7 +150,7 @@ body {
 }
 
 .discussion h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .discussion th {
@@ -138,7 +159,10 @@ body {
     background-color: #214778;
     color: white;
 }
-
+.discussion-download {
+    font-size: 20px;
+    padding: 2% 0 0 0 ;
+}
 .discussion table {
     background-color: #214999;
 }
@@ -175,13 +199,16 @@ body {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-
 }
 
 .timetable h1 {
     font-size: 35px;
 }
-
+.timetable hr {
+    border:  white 2px dashed;
+    width: 20%;
+    animation: expandWidth 1s ease-out;
+}
 .timetable p {
     font-size: 20px;
 }
