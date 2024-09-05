@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="Stylesheet.css">
         <script src="JS/Mark_table.js"></script>
         <script src="JS/Welcome_name.js"></script>
+        <script src="JS/Thread.js"></script>
     </head>
     <body>
         <!--Header-->
@@ -104,14 +105,11 @@
                 <h1>Threaded Discussions</h1>
                 <input type="text" placeholder="Search Thread...">
                 <button>Search</button>
-                <div class="discussion-thread">
-                    Wian : Hello so I found this website that will help with the
-                    understanding of...<br>
-                    Wian : Nevermind I was joking .. lol
+                <div class="discussion-thread" id="chat_area">
                 </div>
                 <div class="discussion-thread-message">
                     <input type="text" id="message" name="message" required>
-                    <button type="submit">Send Message</button>
+                    <button type="submit" onclick="SendMessage()">Send Message</button>
                 </div>
                 <h1>Study Groups</h1>
                 <div class="discussion-study-group">
