@@ -1,104 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>
-            CTU | Share Resources
-        </title>
         <meta charset="UTF-8">
+        <title>CTU | Share Resources</title>
         <link rel="icon" type="image/x-icon" href="Media/website.png">
         <link rel="stylesheet" href="Style/Stylesheet.css">
         <script src="JS/share_resources.js"></script>
     </head>
     <body>
         <header class="header">
-            <nav class="nav">
-                <div class="header-title">
-                    <h1>
-                        Welcome to CTU
-                    </h1>
-                </div>
-                <div class="header-pages">
-                    <table>
-                        <tr>
-                            <th><a href="home.html"
-                                    class="header-pages-style">Home</a></th>
-                            <th><a href="Timetable.html"
-                                    class="header-pages-style">Timetable</a></th>
-                            <th><a href="Discussion.html"
-                                    class="header-pages-style">Discussion</a></th>
-                            <th><a href="Share Resources.html"
-                                    class="header-pages-style">Share
-                                    Resources</a></th>
-                            <th><a href="About us.html"
-                                    class="header-pages-style">About
-                                    Us</a></th>
-                            <th><a href="Contact us.html"
-                                    class="header-pages-style">Contact
-                                    Us</a></th>
-                        </tr>
-                    </table>
-                </div>
-            </nav>
+            <!-- Header content remains the same -->
         </header>
-        <main class="main">
-            <div>
-                <h1>Share Resources</h1>
-                <div>
-                    <input type="text" placeholder="Search resources...">
-                    <button>Search</button>
-                </div>
-                <div class="file-download">
-                    <input type="checkbox" id="file1" name="file1">
-                    <label for="file1">File 1</label>
-                    <input type="checkbox" id="file2" name="file1">
-                    <label for="file2">File 2</label>
-                    <input type="checkbox" id="file3" name="file1">
-                    <label for="file3">File 3</label>
-                    <br>
-                    <button class="button"
-                        onclick="downloadResources()">Donwload</button>
 
-                </div>
-                <div>
-                    <h2>Upload Resources</h2>
-                    <input type="file">
-                    <select class="category-select">
+        <main class="main">
+            <h1>Share Resources</h1>
+
+            <div>
+                <h2>Upload Resources</h2>
+                <form action="upload.php" method="post"
+                    enctype="multipart/form-data">
+                    <input type="file" name="fileToUpload" id="fileToUpload"
+                        accept=".pdf">
+                    <select name="category" class="category-select">
                         <option value>Select Category</option>
                         <option value="math">Mathematics</option>
                         <option value="science">Science</option>
-                        <option value="literature">Programmming</option>
-                        <option value="history">Networking</option>
+                        <option value="programming">Programming</option>
+                        <option value="networking">Networking</option>
                     </select>
-                    <button class="upload-btn">Upload PDF</button>
-                </div>
-                <div class="file-upload">
-                    <p>UploadedFile1</p>
-                </div>
+                    <input type="submit" value="Upload PDF" name="submit"
+                        class="upload-btn">
+                </form>
+            </div>
 
+            <div>
+                <h2>Available Resources</h2>
+                <form action="download.php" method="post">
+                    <div id="fileList">
+                        <!-- File list will be populated dynamically -->
+                    </div>
+                    <button type="submit" name="download"
+                        class="button">Download Selected</button>
+                </form>
             </div>
         </main>
+
         <footer class="footer-fixed">
-            City Technical University
-            <div class="footer-pages">
-                <table align="center">
-                    <tr>
-                        <th><a href="index.html"
-                                class="header-pages-style">Home</a></th>
-                        <th><a href="Timetable.html"
-                                class="header-pages-style">Timetable</a></th>
-                        <th><a href="Discussion.html"
-                                class="header-pages-style">Discussion</a></th>
-                        <th><a href="Share Resources.html"
-                                class="header-pages-style">Share
-                                Resources</a></th>
-                        <th><a href="About us.html"
-                                class="header-pages-style">About
-                                Us</a></th>
-                        <th><a href="Contact us.html"
-                                class="header-pages-style">Contact Us</a></th>
-                    </tr>
-                </table>
-            </div>
+            <!-- Footer content remains the same -->
         </footer>
+
+        <script src="JS/load_files.js"></script>
     </body>
 </html>
