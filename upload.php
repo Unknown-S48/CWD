@@ -28,15 +28,19 @@ if(isset($_POST["submit"])) {
             
             if($stmt->execute()){
                 echo "The file ".$fileName. " has been uploaded successfully.";
+                header("Location: Share Resources.html");
             } else {
                 echo "File upload failed, please try again.";
+                header("Location: Share Resources.html");
             }
             $stmt->close();
         } else {
             echo "Sorry, there was an error uploading your file.";
+            header("Location: Share Resources.html");
         }
     } else {
         echo 'Sorry, only PDF files are allowed to upload.';
+        header("Location: Share Resources.html");
     }
 }
 
