@@ -14,11 +14,13 @@
                 email = document.getElementById("email").value;
                 subject = document.getElementById("subject").value;
                 message = document.getElementById("message").value;
+                sub = document.getElementById("Subscribe").value;
 
                 console.log("Name: " + name);
                 console.log("email: " + email);
                 console.log("subject: " + subject);
                 console.log("message: " + message);
+                console.log("subscribe: " + sub);
             }
         </script>
     </head>
@@ -70,9 +72,9 @@
                         <textarea id="message" name="message" rows="5"
                             required></textarea>
 
-                            <label for="Subscribe">Subscribe:</label>
-                            <input type="checkbox" id="Subscribe" name="Subscribe">
+                            <label for="Subscribe"><input type="checkbox" id="Subscribe" name="Subscribe">Subscribe for extra content.</label>
                             
+
                         <button type="submit" onclick="sendMessage()">Send
                             Message</button>
                         
